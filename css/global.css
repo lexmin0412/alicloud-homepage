@@ -1,0 +1,249 @@
+/* header start */
+header {
+	background-color: #24282c;
+	border-bottom: 1px solid #45484b;
+}
+header:hover {
+	background-color: #373d41;
+}
+header .topbar {
+	height: 40px;
+	border-bottom: 1px solid #45484b;
+}
+.logo {
+	cursor: pointer;
+	float: left;
+	width: 80px;
+	margin: 0;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 7px;
+	background: url(../images/logo_bg.gif) no-repeat 21px center;
+}
+.logo img {
+	width: 80px;
+	height: 19px;
+}
+.topbar .menu {
+	float: right;			
+}
+.topbar .menu ul li {
+	float: right;
+	padding: 0 11px;
+	line-height: 40px;
+}
+.topbar .menu ul li a {
+	font-size: 14px;
+}
+.topbar .language {
+	float: right;
+	line-height: 40px;
+}
+.navbar {
+	height: 60px;
+}
+.navbar nav {
+	float: left;
+}
+.navbar nav ul {
+	overflow: hidden;
+}
+.navbar nav ul li {
+	float: left;
+	padding: 0 16px;
+	line-height: 60px;
+}
+.navbar nav ul li:first-child {
+	margin-left: 3px;
+}
+/* start */
+.navbar nav #items {
+	overflow: hidden;
+	position: absolute;
+	display: none;
+	/*width: 1000px;*/
+	width: 100%;
+	background-color: #272b2e;
+	padding-left: 16px;
+	/*transition: all 1s;*/
+}
+.navbar nav #items dl {
+	padding-top: 18px;
+	padding-bottom: 18px;
+	float: left;
+	width: 196px;
+}
+.navbar nav #items dl dt {
+	font-size: 14px;
+	color: #fff;
+	line-height: 44px;
+}
+.navbar nav #items dl dd {
+	line-height: 28px;
+}
+.navbar nav #items dl dd a {
+	font-size: 12px;
+	color: #c3c5c6;
+}	
+/* 选中项目的下划线 */
+.navbar nav ul #underline {
+	position: absolute;
+	height: 3px;
+	background-color: #00c1de;
+	top: 97px;
+}
+/* end */
+.navbar .register {
+	float: right;
+	width: 120px;
+	line-height: 60px;
+	background-color: #00c1de;
+	text-align: center;
+}
+/* header end*/
+
+/* footer start*/
+footer {
+	overflow: hidden;
+	width: 100%;
+	background-color: #373d41;
+	/*padding-top: 26px;*/
+}
+footer .service {
+	padding-top: 26px;
+	border-bottom: 1px solid #4b5054;
+	overflow: hidden;
+}
+footer .service .hotline {
+	padding-right: 108px;
+}
+footer .service .hotline .icon {
+	float: left;
+	padding-right: 25px;
+	padding-top: 4px;
+}
+footer .service .hotline .contact {
+	float: left;
+}
+footer .service .hotline .contact h3 {
+	font-size: 16px;
+	color: #d7d8d9;
+	line-height: 32px;
+}
+footer .service .hotline .contact h2 {
+	font-weight: normal;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 24px;
+	margin-top: 8px;
+}
+footer .service .hotline .contact ul li {
+	line-height: 30px;
+}
+footer .service .hotline .contact ul li a {
+	font-size: 12px;
+	color: #9b9ea0;
+}
+footer .service .hotline, footer .service .entrance, footer .service .follow {
+	float: left;
+}
+footer .service .entrance{
+	padding-left: 130px;
+	border-left: 1px solid #4b5054;
+}
+footer .service .entrance dl {
+	float: left;
+	width: 169px;
+}
+footer .service .entrance dl dt, footer .service .follow dl dt {
+	line-height: 24px;
+	margin-bottom: 7px;
+}
+footer .service .entrance dl dd, footer .service .follow dl dd {
+	line-height: 26px;
+}
+footer .service .entrance dl dt a, footer .service .entrance dl dd a, footer .service .follow dl dt a, footer .service .follow dl dd a {
+	font-size: 11px;
+}
+footer .service .entrance dl dt a, footer .service .follow dl dt a {
+	color: #d7d8d9;
+	font-weight: 700;
+}
+footer .service .entrance dl dd a, footer .service .follow dl dd a {
+	color: #9b9ea0;
+	font-weight: 400;
+}
+footer .follow dl dd img {
+	margin-top: 16px;
+}
+footer .promote {
+	padding-top: 24px;
+	padding-bottom: 17px;
+	border-bottom: 1px solid #4b5054;
+}
+footer .promote dl {
+	overflow: hidden;               /*清除浮动*/
+}
+footer .promote dl dt, footer .promote dl dd {
+	float: left;
+	font-size: 12px;
+}
+footer .promote dl dt {
+	line-height: 26px;
+	width: 80px;
+}
+footer .promote dl dd {
+	width: 124px;
+	line-height: 26px;
+}
+footer .promote dl dt a {
+	color: #9b9ea0;
+	font-weight: bold;
+}
+footer .promote dl dd a {
+	color: #73777a;
+}
+footer .links {
+	padding-bottom: 6px;
+}
+footer .links .about {
+	overflow: hidden;
+}
+footer .links .about ul li {
+	float: left;
+	line-height: 85px;
+	padding-right: 40px;
+}
+footer .links .about ul li a {
+	color: #9b9ea0;
+}
+footer .links .others ul li {
+	float: left;
+	padding-right: 14px;
+	line-height: 31px;
+}
+footer .links .others ul li a {
+	color: #73777a;
+	font-size: 14px;
+}
+footer .links .others {
+	float: left;
+}
+footer .copyright {
+	font-size: 14px;
+	color: #73777a;
+	line-height: 30px;
+	margin-bottom: 11px;
+}
+footer .licence img {
+	float: left;
+	margin-right: 6px;
+	vertical-align: middle;
+}
+footer .licence span {
+	float: left;
+	color: #939393;
+	font-size: 14px;
+	margin-right: 6px;
+}
+/* footer end */

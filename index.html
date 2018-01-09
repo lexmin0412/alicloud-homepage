@@ -1,0 +1,1762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AliCloud-Home</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/common.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body> 
+	<!-- 头部 start -->
+	<header>
+		<div class="topbar">
+			<div class="logo">
+				<a href="#"><img src="images/logo.png" title="返回主页"></a>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="#">合作伙伴</a></li>
+					<li><a href="#">奥运专题</a></li>
+					<li><a href="#">云服务器</a></li>
+					<li><a href="#">产品发布</a></li>
+					<li><a href="#">最新活动</a></li>
+				</ul>
+			</div>
+			<!-- <div class="language">
+				<i></i><a href="#">控制台</a><i></i>
+				 下拉小图标
+			</div> -->
+			<div class="search"></div>
+		</div>
+		<div class="navbar">
+			<nav id="nav">     <!--用于js-->
+				<ul>
+					<li><a href="#">解决方案</a></li>
+					<li><a href="#">数据 · 智能</a></li>
+					<li><a href="#">安全</a></li>
+					<li><a href="#">支持</a></li>
+					<div id="underline"></div>
+				</ul>
+				<!-- 鼠标移上导航栏项目时需要对应显示的内容 -->
+				<div id="items">
+					<div id="items_solutions">
+						<dl>
+							<dt>行业解决方案</dt>
+							<dd><a href="">新零售解决方案</a></dd>
+							<dd><a href="">新金融解决方案</a></dd>
+							<dd><a href="">新制造解决方案</a></dd>
+							<dd><a href="">新能源解决方案</a></dd>
+							<dd><a href="">新技术解决方案</a></dd>
+						</dl>
+						<dl>
+							<dt>通用解决方案</dt>
+							<dd><a href="">混合云解决方案</a></dd>
+							<dd><a href="">云存储解决方案</a></dd>
+							<dd><a href="">数据迁移上云解决方案</a></dd>
+							<dd><a href="">央企采购电商解决方案</a></dd>
+							<dd><a href="">智能配送调度解决方案</a></dd>
+						</dl>
+						<dl>
+							<dt>安全解决方案</dt>
+							<dd><a href="">等保合规安全解决方案</a></dd>
+							<dd><a href="">政务云安全解决方案</a></dd>
+							<dd><a href="">新零售安全解决方案</a></dd>
+							<dd><a href="">混合云态势感知解决方案</a></dd>
+							<dd><a href="">互联网金融安全解决方案</a></dd>
+						</dl>
+						<dl>
+							<dt>大数据解决方案</dt>
+							<dd><a href="">个性化推荐</a></dd>
+							<dd><a href="">大数据仓库</a></dd>
+							<dd><a href="">云上数据集成方案</a></dd>
+							<dd><a href="">智能旅游解决方案</a></dd>
+							<dd><a href="">数字营销解决方案</a></dd>
+						</dl>
+					</div>
+					<div id="items_intelligence">
+						<dl>
+							<dt>数加 · ET大脑</dt>
+							<dd><a href="">ET医疗大脑</a></dd>
+							<dd><a href="">ET工业大脑</a></dd>
+							<dd><a href="">ET环境大脑</a></dd>
+						</dl>
+						<dl>
+							<dt>数加 · 人工智能</dt>
+							<dd><a href="">人机对话</a></dd>
+							<dd><a href="">人脸识别</a></dd>
+							<dd><a href="">机器学习PAI</a></dd>
+						</dl>
+						<dl>
+							<dt>数加 · 大数据应用</dt>
+							<dd><a href="">推荐引擎</a></dd>
+							<dd><a href="">营销引擎</a></dd>
+							<dd><a href="">企业图谱</a></dd>
+						</dl>
+						<dl>
+							<dt>数加 · 大数据分析及展现</dt>
+							<dd><a href="">DataV数据可视化</a></dd>
+							<dd><a href="">Quick BI</a></dd>
+							<dd><a href="">关系网络分析</a></dd>
+						</dl>
+					</div>
+					<div id="items_safety">
+						<dl>
+							<dt>安全产品 · 云盾</dt>
+							<dd><a href="">CA证书服务（应用安全）</a></dd>
+							<dd><a href="">DDoS高防IP（网络安全）</a></dd>
+							<dd><a href="">Web应用防火墙（网络安全）</a></dd>
+						</dl>
+						<dl>
+							<dt>安全解决方案</dt>
+							<dd><a href="">混合云态势感知解决方案</a></dd>
+							<dd><a href="">互联网金融安全解决方案</a></dd>
+							<dd><a href="">社交/媒体spam解决方案</a></dd>
+						</dl>
+						<dl>
+							<dt>安全服务 · 先知</dt>
+							<dd><a href="">安全众测</a></dd>
+							<dd><a href="">等保测评</a></dd>
+							<dd><a href="">应急响应</a></dd>
+						</dl>
+						<dl>
+							<dt>安全公益</dt>
+							<dd><a href="">产业安全扶助计划</a></dd>
+						</dl>
+					</div>
+					<div id="items_support">
+						<dl>
+							<dt>服务支持</dt>
+							<dd><a href="">商业级服务</a></dd>
+							<dd><a href="">企业标准级服务</a></dd>
+							<dd><a href="">企业至尊级服务</a></dd>
+						</dl>
+						<dl>
+							<dt>帮助与文档</dt>
+							<dd><a href="">新手学堂</a></dd>
+							<dd><a href="">自助工具</a></dd>
+							<dd><a href="">文档与视频</a></dd>
+						</dl>
+						<dl>
+							<dt>开发者资源</dt>
+							<dd><a href="">API市场</a></dd>
+							<dd><a href="">开发者工具</a></dd>
+							<dd><a href="">DevOps解决方案</a></dd>
+						</dl>
+						<dl>
+							<dt>云栖社区</dt>
+							<dd><a href="">直播</a></dd>
+							<dd><a href="">云栖大会</a></dd>
+							<dd><a href="">技术专题</a></dd>
+						</dl>
+					</div>
+				</div>
+			</nav>
+			<div class="register">
+				<a href="#">立即注册</a>
+			</div>
+		</div>
+	</header>
+	<!-- 头部 end -->
+
+	<!-- 页面主体 main start -->
+	<main>
+		<div class="banner" id="banner">
+			<ul id="bannerLisUl">
+				<li>
+					<div class="content">
+						<div class="img"><img src="images/banner1_1.png" alt=""></div>
+						<div class="img"><img src="images/banner1_2.png" alt=""></div>
+						<div class="img"><img src="images/banner1_3.png" alt=""></div>
+						<div class="description">
+							<h2>Next ECS | 面向企业 极致性能</h2>
+							<p>阿里云企业级ECS产品线发布，4大类覆盖17个子业务场景</p>
+							<button>查看详情</button>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="content">
+						<div class="img"><img src="images/banner3_1.png" alt=""></div>
+						<div class="img"><img src="images/banner3_2.png" alt=""></div>
+						<div class="img"><img src="images/banner3_3.png" alt=""></div>
+						<div class="description">
+							<h2>省钱利器 共享流量包</h2>
+							<p>首购用户10GB流量免费领，闲时流量包最大节省50%公网流量成本</p>
+							<button>查看详情</button>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="content">
+						<div class="img"><img src="images/banner4_1.png" alt=""></div>
+						<div class="img"><img src="images/banner4_2.png" alt=""></div>
+						<div class="img"><img src="images/banner4_3.png" alt=""></div>
+						<div class="description">
+							<h2>阿里大于品牌升级</h2>
+							<p>短信服务、语音服务、流量服务搬站阿里云</p>
+							<button>查看详情</button>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="content">
+						<div class="img"><img src="images/banner5_1.png" alt=""></div>
+						<div class="img"><img src="images/banner5_2.png" alt=""></div>
+						<div class="img"><img src="images/banner5_3.png" alt=""></div>
+						<div class="description">
+							<h2>图像、人脸识别技术全新上线</h2>
+							<p>场景解析和使用说明</p>
+							<button>查看详情</button>
+						</div>
+					</div>
+				</li>
+				<!-- <li>
+					<div class="content">
+						<div class="img olympics">
+							<img src="images/banner2.jpg" alt="">
+						</div>
+						<div class="description"></div>
+					</div>
+				</li> -->
+			</ul>
+			<ol></ol>
+			<div class="activity">
+				<div class="w">
+					<ul>
+						<li>
+							<i><img src="images/cloudcompute.png" alt=""></i>
+							<div class="activity_detail">
+								<h3>全民云计算</h3>
+								<p>低门槛上云捷径</p>
+							</div>
+						</li>
+						<li>
+							<i><img src="images/school.png" alt""></i>
+							<div class="activity_detail">
+								<h3>校园扶持</h3>
+								<p>玩转云计算校园</p>
+							</div>
+						</li>
+						<li>
+							<i><img src="images/entrance.png"alt=""></i>
+							<div class="activity_detail">
+								<h3>10分钟入门</h3>
+								<p>在线轻松学习和实验</p>
+							</div>
+						</li>
+						<li>
+							<i><img src="images/conference.png"alt=""></i>
+							<div class="activity_detail">
+								<h3>杭州云栖大会</h3>
+								<p>限时特惠门票等你抢</p>
+							</div>
+						</li>
+						<li>
+							<i><img src="images/cloudzhejiang.png" alt=""></i>
+							<div class="activity_detail">
+								<h3>云上浙江</h3>
+								<p>助力浙江十万企业上云</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="product w">
+		
+				<div class="product_title w">
+					<div class="olympics">
+						<img src="images/olympics.png" alt="">
+					</div>
+					<h3>全球领先、安全、稳定的云计算产品</h3>
+					<p><a href="">计算、存储、网络、安全、大数据、人工智能、普惠科技助您飞跃发展</a></p>
+				</div>
+				<div class="product_items" id="productItems">
+					<div class="items_title">
+						<dl class="items_titles">
+							<dt>
+								<a href="javascript:">
+									<img src="images/elastic_computing.png" alt="">
+									<img class="checked" src="images/elastic_computing_checked.png" alt="">
+								</a>
+							</dt>
+							<dd><a href="javascript:">弹性计算</a></dd>
+						</dl>
+						<dl class="items_titles">
+							<dt>
+								<a href="javascript:">
+									<img src="images/storage.png" alt="">
+									<img class="checked" src="images/storage_checked.png" alt="">
+								</a>
+							</dt>
+							<dd><a href="javascript:">存储和CDN</a></dd>
+						</dl>
+						<dl class="items_titles">
+							<dt>
+								<a href="javascript:">
+									<img src="images/database.png" alt="">
+									<img class="checked" src="images/database_checked.png" alt="">
+								</a>
+							</dt>
+							<dd><a href="javascript:">数据库</a></dd>
+						</dl>
+						<dl class="items_titles">
+							<dt>
+								<a href="javascript:">
+									<img src="images/net.png" alt="">
+									<img class="checked" src="images/net_checked.png" alt="">
+								</a>
+							</dt>
+							<dd><a href="javascript:">网络</a></dd>
+						</dl>
+						<dl class="items_titles">
+							<dt>
+								<a href="javascript:">
+									<img src="images/website.png" alt="">
+									<img class="checked" src="images/website_checked.png" alt="">
+								</a>
+							</dt>
+							<dd><a href="javascript:">域名与网站</a></dd>
+						</dl>
+					</div>
+					<div class="items_detail">
+						<div class="details">
+							<li class="detailLi">
+								<div class="content">
+									<h3>GPU 云服务器</h3>
+									<p>GPU实例、强大的计算性能、弹性按需扩展</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>块存储</h3>
+									<p>可弹性扩展、高性能、高可靠的块级随机存储</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>专有网络 VPC</h3>
+									<p>构建逻辑隔离网络，确保资源安全</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>负载均衡</h3>
+									<p>对多台云服务器进行流量分发的负载均衡服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>弹性伸缩</h3>
+									<p>自动调整弹性计算资源的管理服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>资源编排</h3>
+									<p>复杂环境部署利器，提供资源批量复制、创建和配置</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>容器服务</h3>
+									<p>支持微服务架构、全生命周期管理的Docker服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>高性能计算 HPC</h3>
+									<p>加速深度学习、渲染和科学计算的 GPU 物理机</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>批量计算</h3>
+									<p>大规模并行批处理计算服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+						</div>
+						<div class="details">
+							<li class="detailLi">
+								<div class="content">
+									<h3>对象存储 OSS</h3>
+									<p>比传统存储成本下降25%~75%的强安全企业级存储</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>文件存储 NAS</h3>
+									<p>支持NFS、CIFS协议的可共享文件存储</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>表格存储 TableStore</h3>
+									<p>适用于社交、金融、物联网百万并发的NoSQL</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>块存储</h3>
+									<p>随机访问能力高达2万IOPS的块级存储</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>归档存储 OAS</h3>
+									<p>适用于历史数据归档，强安全、高持久低成本存储</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>云存储网关</h3>
+									<p>云上云下部署，轻松对接云存储，无限空间</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>闪电立方</h3>
+									<p>海量离线数据迁移服务，PB级数据只需要一周</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>混合云阵列</h3>
+									<p>本地部署的高性能存储设备，与云端无缝连接</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>智能云相册（公测中）  </h3>
+									<p>为影像类应用提供一站式解决方案</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+						</div>
+						<div class="details">
+							<li class="detailLi">
+								<div class="content">
+									<h3>云数据库 MongoDB 版</h3>
+									<p>三副本集和集群架构文本存储，数据可热迁移</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>云数据库 SQL Server 版</h3>
+									<p>企业许可授权，权限更为开放，引擎功能更为强大</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>云数据库 PostgreSQL 版</h3>
+									<p>源码优化，JSON兼容、GIS支持，易于使用扩展</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>云数据库 HBase 版  </h3>
+									<p>PB级大数据存储，轻松满足百万QPS随机读写需求</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>云数据库 Memcache 版</h3>
+									<p>高性能、高可靠、可平滑扩容的分布式内存数据库服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>HybridDB for MySQL</h3>
+									<p>同时支持事务和分析的自研HTAP PB级分布式数据库</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>HybridDB for PostgreSQL</h3>
+									<p>基于Greenplum DB的MPP并行处理OLAP数据仓库</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>数据传输 DTS</h3>
+									<p>支持数据迁移、数据同步及订阅的实时数据流服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>数据管理 DMS</h3>
+									<p>数据查询、结构管理、导入导出等功能的可视化管理</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+						</div>
+						<div class="details">
+							<li class="detailLi">
+								<div class="content">
+									<h3>高速通道</h3>
+									<p>高速稳定的 VPC 互联和专线接入服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>负载均衡</h3>
+									<p>对多台云服务器进行流量分发的负载均衡服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>专有网络 VPC</h3>
+									<p>构建逻辑隔离网络，确保资源安全</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>NAT网关</h3>
+									<p>支持NAT转发、共享带宽的VPC网关</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>弹性公网IP</h3>
+									<p>独立的公网IP资源，灵活绑定云资源</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>VPN网关  </h3>
+									<p>支持安全加密数据传输的VPC网关</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>共享流量包  </h3>
+									<p>价格实惠，覆盖多个地域，自动抵扣流量费用</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>共享带宽  </h3>
+									<p>带宽共享，按实际使用带宽付费，支持增强型95计费</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>PCDN  </h3>
+									<p>适用于点播、直播、大文件的边缘节点分发网络</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+						</div>
+						<div class="details">
+							<li class="detailLi">
+								<div class="content">
+									<h3>域名注册</h3>
+									<p>超过1000万个域名注册，安全易用</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>域名交易</h3>
+									<p>买卖域名，像淘宝一样简单</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>云解析 DNS</h3>
+									<p>高可用性、高可扩展的权威DNS服务和DNS管理服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>HTTPDNS</h3>
+									<p>移动域名解析，具有域名防劫持、精准调度的特性</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>云虚拟主机</h3>
+									<p>国内市场NO.1，独享资源虚机298元/年起</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>企业邮箱</h3>
+									<p>无限容量，50万企业信任之选</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+						</div>
+					</div>
+					<div class="items_title">
+						<dl class="items_titles">
+							<dt>
+								<a href="javascript:">
+									<img src="images/safety.png" alt="">
+									<img class="checked" src="images/safety_checked.png" alt="">
+								</a>
+							</dt>
+							<dd><a href="javascript:">安全</a></dd>
+						</dl>
+						<dl class="items_titles">
+							<dt>
+								<a href="javascript:">
+									<img src="images/intelligence.png" alt="">
+									<img class="checked" src="images/intelligence_checked.png" alt="">
+								</a>
+							</dt>
+							<dd><a href="javascript:">人工智能ET</a></dd>
+						</dl>
+						<dl class="items_titles">
+							<dt>
+								<a href="javascript:">
+									<img src="images/dataservice.png" alt="">
+									<img class="checked" src="images/dataservice_checked.png" alt="">
+								</a>
+							</dt>
+							<dd><a href="javascript:">大数据基础服务</a></dd>
+						</dl>
+						<dl class="items_titles">
+							<dt>
+								<a href="javascript:">
+									<img src="images/dataapplication.png" alt="">
+									<img class="checked" src="images/dataapplication_checked.png" alt="">
+								</a>
+							</dt>
+							<dd><a href="javascript:">大数据应用</a></dd>
+						</dl>
+						<dl class="items_titles">
+							<dt>
+								<a href="javascript:">
+									<img src="images/dataanalysis.png" alt="">
+									<img class="checked" src="images/dataanalysis_checked.png" alt="">
+								</a>
+							</dt>
+							<dd><a href="javascript:">大数据分析及展现</a></dd>
+						</dl>
+					</div>
+					<div class="items_detail">
+						<div class="details">
+							<li class="detailLi">
+								<div class="content">
+									<h3>DDoS高防IP（网络安全）</h3>
+									<p>300G按天付费，防御超大流量DDoS攻击</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>态势感知（安全管理）</h3>
+									<p>安全统一告警平台，原始日志检索和安全事件调</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>先知（安全服务）</h3>
+									<p>先知平台提供安全众测、等保测评、应急响应等种安全服务。</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>安全管家（安全管理）</h3>
+									<p>专业、高效的入侵响应、安全护航、安全托管服</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>CA证书服务（应用安全）</h3>
+									<p>用国际权威CA数字证书，实现全站HTTPS化</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>数据库审计（数据安全）</h3>
+									<p>符合数据库合规审计要求</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>内容安全（业务安全）</h3>
+									<p>文本、图像、视频直播的内容安全检测服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>堡垒机（安全管理）</h3>
+									<p>运维操作记录，满足合规审计要求</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>加密服务（数据安全）</h3>
+									<p>加密，符合监管合规的硬件加密服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+						</div>
+						<div class="details">
+							<li class="detailLi">
+								<div class="content">
+									<h3>机器学习PAI</h3>
+									<p>从BI到AI，人工智能触手可及</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>语音识别与合成</h3>
+									<p>录音识别为文字，文字合成为人声</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>人机对话</h3>
+									<p>快速构建自己的智能对话机器人</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>印刷文字识别</h3>
+									<p>高精准的图像文字解析和识别服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>人脸识别</h3>
+									<p>人脸检测、分析、和认证服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+						</div>
+						<div class="details">
+							<li class="detailLi">
+								<div class="content">
+									<h3>数加 · 大数据开发套件</h3>
+									<p>建设数据仓库，人省一半</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>数加 · 分析型数据库</h3>
+									<p>眨眼间，千亿数据随意查询</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>数加 · MaxCompute</h3>
+									<p>建设数据仓库，钱省一半</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>数加 · 数据集成</h3>
+									<p>消除数据孤岛，快速集中数据</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>数加 · 流计算（公测中）</h3>
+									<p>会写SQL的流计算</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>数加 · 大数据体验馆</h3>
+									<p>数加丰富的场景案例、教程</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+						</div>
+						<div class="details">
+							<li class="detailLi">
+								<div class="content">
+									<h3>数加 · 推荐引擎</h3>
+									<p>适用于新闻、短视频等应用场景</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>数加 · 公众趋势分析</h3>
+									<p>时刻关注您的口碑</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>数加 · 企业图谱</h3>
+									<p>透视企业关系，洞察企业风险</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>数加 · 营销引擎</h3>
+									<p>极速搭建高水准的DSP系统</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>数据市场相关API及应用</h3>
+									<p>全面的数据及API采购服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>数加 · 大数据体验馆</h3>
+									<p>数加丰富的场景案例、教程</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+						</div>
+						<div class="details">
+							<li class="detailLi">
+								<div class="content">
+									<h3>数加 · DataV数据可视化</h3>
+									<p>做出领导惊喜的可视化大屏</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>数加 · Quick BI</h3>
+									<p>30分钟，老板也能上手的BI</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>数加 · 画像分析（公测中）</h3>
+									<p>智能化的用户兴趣标签</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>数加 · 关系网络分析</h3>
+									<p>构建万物互联，追寻业务线索</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>数加 · 大数据体验馆</h3>
+									<p>数加丰富的场景案例、教程</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+						</div>
+					</div>
+					<div class="items_title">
+						<dl class="items_titles">
+							<dt>
+								<a href="javascript:">
+									<img src="images/search.png" alt="">
+									<img class="checked" src="images/search_checked.png" alt="">
+								</a>
+							</dt>
+							<dd><a href="javascript:">分析和搜索</a></dd>
+						</dl>
+						<dl class="items_titles">
+							<dt>
+								<a href="javascript:">
+									<img src="images/cloudmessage.png" alt="">
+									<img class="checked" src="images/cloudmessage_checked.png" alt="">
+								</a>
+							</dt>
+							<dd><a href="javascript:">云通信</a></dd>
+						</dl>
+						<dl class="items_titles">
+							<dt>
+								<a href="javascript:">
+									<img src="images/applicationservice .png" alt="">
+									<img class="checked" src="images/applicationservice_checked.png" alt="">
+								</a>
+							</dt>
+							<dd><a href="javascript:">应用服务</a></dd>
+						</dl>
+						<dl class="items_titles">
+							<dt>
+								<a href="javascript:">
+									<img src="images/mobilecloud.png" alt="">
+									<img class="checked" src="images/mobilecloud_checked.png" alt="">
+								</a>
+							</dt>
+							<dd><a href="javascript:">移动云ApsaraMobile</a></dd>
+						</dl>
+						<dl class="items_titles">
+							<dt>
+								<a href="javascript:">
+									<img src="images/videoservice.png" alt="">
+									<img class="checked" src="images/videoservice_checked.png" alt="">
+								</a>
+							</dt>
+							<dd><a href="javascript:">视频服务</a></dd>
+						</dl>
+					</div>
+					<div class="items_detail">
+						<div class="details">
+							<li class="detailLi">
+								<div class="content">
+									<h3>E-MapReduce</h3>
+									<p>基于 Hadoop/Spark 的大数据处理分析服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>高性能计算 HPC</h3>
+									<p>加速深度学习、渲染和科学计算的 GPU 物理机</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>大数据计算服务 MaxCompute</h3>
+									<p>TB到EB级安全稳定免运维数仓平台</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>分析型数据库</h3>
+									<p>千亿级记录、毫秒级查询的OLAP系统</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>开放搜索</h3>
+									<p>结构化数据搜索托管服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>日志服务</h3>
+									<p>一站式解决日志收集、存储、查询和分析</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+						</div>
+						<div class="details">
+							<li class="detailLi">
+								<div class="content">
+									<h3>短信服务</h3>
+									<p>验证码和短信通知服务，三网合一快速到达</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>语音服务</h3>
+									<p>语音通知和语音验证，支持多方通话</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>流量服务</h3>
+									<p>轻松玩转手机流量，物联卡专供物联终端使用</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>私密专线</h3>
+									<p>号码隔离，保护双方的隐私信息</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>移动推送</h3>
+									<p>移动应用通知与消息推送服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>消息服务</h3>
+									<p>处理应用间海量消息传递的消息队列与通知服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+						</div>
+						<div class="details">
+							<li class="detailLi">
+								<div class="content">
+									<h3>日志服务</h3>
+									<p>一站式解决日志收集、存储、查询和分析</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>开放搜索</h3>
+									<p>结构化数据搜索托管服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>性能测试</h3>
+									<p>性能云测试平台，帮您轻松完成系统性能评估</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>RDC研发协同 (公测中）  </h3>
+									<p>云上企业级一站式智能研发协同平台</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>邮件推送</h3>
+									<p>事务\批量邮件推送，验证码\通知短信服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>API 网关</h3>
+									<p>API 托管，安全防护、精准流控，降低开发成本</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>物联网套件（公测中）</h3>
+									<p>助您快速搭建稳定可靠的物联网应用</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>消息服务</h3>
+									<p>大规模、高可靠、高并发访问和超强消息堆积能力</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>智能对话分析服务（公测中）</h3>
+									<p>典型适用于客服质检和电销策略分析</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>CodePipeline</h3>
+									<p>从代码到应用的持续集成和交付服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>云AP</h3>
+									<p>云端的企业WiFi、商业WiFi服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>云桌面</h3>
+									<p>便捷、安全的云上虚拟桌面服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>云客服</h3>
+									<p>一站式智能客户服务，让服务更贴心，让机器更懂你</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>云投屏（公测中）</h3>
+									<p>电脑屏幕实时投放、多屏投放、远程投放服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>码栈云机</h3>
+									<p>可视化搭建提效应用，大幅提升业务效率</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+						</div>
+						<div class="details">
+							<li class="detailLi">
+								<div class="content">
+									<h3>移动推送</h3>
+									<p>高送达，双11场景考验的移动应用内消息推送</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>短信服务</h3>
+									<p>验证码和短信通知服务，三网合一快速到达</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>HTTPDNS</h3>
+									<p>防劫持、就近接入、解析快</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>移动安全</h3>
+									<p>解决移动应用漏洞、仿冒、篡改、破解等安全风险</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>移动数据分析（公测中）</h3>
+									<p>移动应用数据采集、分析及开放输出服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>移动加速（公测中）</h3>
+									<p>低侵入、高可控</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>移动热修复</h3>
+									<p>实时修复，无需发版</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>移动测试</h3>
+									<p>智能、深入、全面、易用的移动测试解决方案</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>移动用户反馈（公测中）</h3>
+									<p>支持图片语音，自动抓取应用市场评论</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+						</div>
+						<div class="details">
+							<li class="detailLi">
+								<div class="content">
+									<h3>视频点播</h3>
+									<p>上传、转码、存储、加速分发一体的点播服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>媒体转码</h3>
+									<p>为多媒体数据提供转码、加工、处理的计算服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+							<li class="detailLi">
+								<div class="content">
+									<h3>视频直播</h3>
+									<p>低延时、高并发、实时多媒体处理的直播服务</p>
+								</div>
+								<div class="goto">&gt;</div>
+							</li>
+						</div>
+					</div>
+				</div>
+				<div class="more w">
+					<button>查看全部</button>
+				</div>
+			
+		</div>
+		<div class="solutions" id="solutions">
+			<ul>
+				<li>
+					<div class="mask">
+						<div class="content">
+							<div class="icon">
+								<img src="images/elecshopping.png" alt="">
+								<img src="images/elecshopping_checked.png" alt="">
+							</div>
+							<span class="panel"></span>
+							<h3>电商解决方案</h3>
+							<p>结合大数据能力帮助电商企业快速搭建平台、应对业务高并发，剖析秒杀、视频直播等场景</p>
+							<button>查看详情</button>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="mask">
+						<div class="content">
+							<div class="icon">
+								<img src="images/app.png" alt="">
+								<img src="images/app_checked.png" alt="">
+							</div>
+							<span class="panel"></span>
+							<h3>APP解决方案</h3>
+							<p>助移动开发者轻松应对用户数爆发式增长,实现基于大数据的精细化运营、增强用户黏性</p>
+							<button>查看详情</button>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="mask">
+						<div class="content">
+							<div class="icon">
+								<img src="images/finance.png" alt="">
+								<img src="images/finance_checked.png" alt="">
+							</div>
+							<span class="panel"></span>
+							<h3>金融解决方案</h3>
+							<p>为金融行业提供量身定制的云计算服务，具备低成本、高弹性、高可用、安全合规的特性</p>
+							<button>查看详情</button>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="mask">
+						<div class="content">
+							<div class="icon">
+								<img src="images/game.png" alt="">
+								<img src="images/game_checked.png" alt="">
+							</div>
+							<span class="panel"></span>
+							<h3>游戏解决方案</h3>
+							<p>为游戏开发者提供专属集群、尊享VIP服务、专项扶持基金、多场景游戏部署解决方案</p>
+							<button>查看详情</button>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="mask">
+						<div class="content">
+							<div class="icon">
+								<img src="images/medical.png" alt="">
+								<img src="images/medical_checked.png" alt="">
+							</div>
+							<span class="panel"></span>
+							<h3>医疗解决方案</h3>
+							<p>融合云计算大数据，连接用户、医疗设备、医疗机构和医疗ISV，构建医疗行业云生态</p>
+							<button>查看详情</button>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="software">
+			<div class="title">
+				<h3>海纳百川，精选全球的高品质软件与服务</h3>
+				<p><a href="">开发者工具、建站、API、企业应用、支撑云端应用服务</a></p>
+			</div>
+			<div class="software_items w">
+				<ul id="software_items">
+					<li class="base_software items">
+						<a href="" class="items_header">
+							<div class="icon">
+								<div class="iconBg"></div>
+							</div>
+							<!-- <div class="icon icon_over"></div> -->
+							<h3>基础软件</h3>
+						</a>
+						<ul>
+							<li class="project_items"><a href="">预装PHP</a>&nbsp;|</li>
+							<li class="project_items"><a href="">预装JAVA</a>&nbsp;|</li>
+							<li class="project_items"><a href="">预装ASP/.NET</a></li>
+							<br>
+							<li class="project_items"><a href="">预装建站系统</a>&nbsp;|</li>
+							<li class="project_items"><a href="">服务器软件</a>&nbsp;|</li>
+							<li class="project_items"><a href="">应用开发工具</a></li>
+						</ul>
+					</li>
+					<li class="website_construction items">
+						<a href="" class="items_header">
+							<div class="icon"></div>
+							<h3>网站建设</h3>
+						</a>
+						<ul>
+							<li class="project_items"><a href="">网站模板</a>&nbsp;|</li>
+							<li class="project_items"><a href="">企业官网</a>&nbsp;|</li>
+							<li class="project_items"><a href="">电子商务</a></li>
+							<br>
+							<li class="project_items"><a href="">定制化服务</a>&nbsp;|</li>
+							<li class="project_items"><a href="">推广与营销</a>&nbsp;|</li>
+							<li class="project_items"><a href="">手机网站</a></li>
+						</ul>
+					</li>
+					<li class="service items">
+						<a href="" class="items_header">
+							<div class="icon"></div>
+							<h3>服务与培训</h3>
+						</a>
+						<ul>
+							<li class="project_items"><a href="">故障排查</a>&nbsp;|</li>
+							<li class="project_items"><a href="">数据迁移</a>&nbsp;|</li>
+							<li class="project_items"><a href="">环境配置</a></li>
+							<br>
+							<li class="project_items"><a href="">云培训与认证</a>&nbsp;|</li>
+							<li class="project_items"><a href="">木马病毒查杀</a>&nbsp;|</li>
+							<li class="project_items"><a href="">专线接入</a></li>
+						</ul>
+					</li>
+					<li class="company_application items">
+						<a href="" class="items_header">
+							<div class="icon"></div>
+							<h3>企业应用</h3>
+						</a>
+						<ul>
+							<li class="project_items"><a href="">阿里云办公</a>&nbsp;|</li>
+							<li class="project_items"><a href="">销售管理</a>&nbsp;|</li>
+							<li class="project_items"><a href="">企业服务</a></li>
+							<br>
+							<li class="project_items"><a href="">协同办公</a>&nbsp;|</li>
+							<li class="project_items"><a href="">人事管理</a>&nbsp;|
+							<br></li>
+							<li class="project_items"><a href="">财务管理</a></li>
+						</ul>
+					</li>
+					<li class="safe_market items">
+						<a href="" class="items_header">
+							<div class="icon"></div>
+							<h3>安全市场</h3>
+						</a>
+						<ul>
+							<li class="project_items"><a href="">网络安全</a>&nbsp;|</li>
+							<li class="project_items"><a href="">主机安全</a>&nbsp;|</li>
+							<li class="project_items"><a href="">应用安全</a></li>
+							<br>
+							<li class="project_items"><a href="">数据安全</a>&nbsp;|</li>
+							<li class="project_items"><a href="">安全管理</a>&nbsp;|</li>
+							<li class="project_items"><a href="">安全服务</a></li>
+						</ul>
+					</li>
+					<li class="api_market items">
+						<a href="" class="items_header">
+							<div class="icon"></div>
+							<h3>API市场</h3>
+						</a>
+						<ul>
+							<li class="project_items"><a href="">API服务</a>&nbsp;|</li>
+							<li class="project_items"><a href="">电子商务</a>&nbsp;|</li>
+							<li class="project_items"><a href="">金融理财</a></li>
+							<br>
+							<li class="project_items"><a href="">企业管理</a>&nbsp;|</li>
+							<li class="project_items"><a href="">交通地理</a>&nbsp;|</li>
+							<li class="project_items"><a href="">气象水利</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="developer">
+			<div class="inside w">
+				<div class="title">
+					<h3>大咖云集，知识分享的开发者技术社区</h3>
+					<p><a href="javascript:">实战干货、在线直播、专家问答、技术论坛，学习，成长，分享，共建</a></p>
+				</div>
+				<div class="slideshow">
+					<ul id="developerUl">
+						<li>
+							<div class="image">
+								<img src="images/functioncomputing.jpg" alt="">
+							</div>
+							<p></p>
+						</li>
+						<li>
+							<div class="image">
+								<img src="images/cpuusing.jpg" alt="">
+							</div>
+							<p></p>
+						</li>
+						<li>
+							<div class="image">
+								<img src="images/cloudpay.jpg" alt="">
+							</div>
+							<p></p>
+						</li>
+					</ul>
+				</div>
+				<div class="discussion">
+					<div class="news">
+						<a href="">【深度】MySQL和阿里云RDS应用和实践宝典</a>
+						<a href="">【分享】十年老司机教你使用云服务</a>
+					</div>
+					<div class="news">
+						<a href="">【聚能聊】Python现在为什么这么火爆？</a>
+						<a href="">【聚能聊】你心目中的云产品机器人是什么样？</a>
+					</div>
+					<div class="news">
+						<a href="">【云栖月刊】当AI来敲门，一刊尽览人工智能</a>
+						<a href="">【揭秘】阿里云全球首批MVP详解</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="defense">
+			阿里云，今天为全国37%的网站防御了<span id="attackNumber">1,309,537,340</span>次攻击
+		</div>
+		<div class="dataCenter">
+			<div class="title">
+				<h3>遍布全球，持续扩张的数据中心让跨域体验更流畅</h3>
+				<p><a href="">无论是硅谷核心区，还是迪拜贸易枢纽区，全球无缝覆盖，提供CN2高速网络，BGP接入支持</a></p>
+			</div>
+			<div class="map w">
+				<img src="images/map.png" alt="">
+				<div class="area" id="area">
+					<div class="area_item usaWest">
+						<a href=""></a>
+						<p>美西</p>	
+						<div class="circle">
+							<div class="circle_inside"></div>
+						</div>
+					</div>
+					<div class="area_item usaEast">
+						<a href=""></a	>
+						<p>美东</p>
+						<div class="circle"></div>
+					</div>
+					<div class="area_item europe">
+						<a href=""></a>
+						<p>欧洲</p>
+						<div class="circle"></div>
+					</div>
+					<div class="area_item middleEast">
+						<a href=""></a>
+						<p>中东</p>
+						<div class="circle"></div>
+					</div>
+					<div class="area_item chinaNorth">
+						<a href=""></a>
+						<p>华北</p>
+						<div class="circle"></div>
+					</div>
+					<div class="area_item chinaSouth">
+						<a href=""></a>
+						<p>华南</p>
+						<div class="circle"></div>
+					</div>
+					<div class="area_item chinaEast">
+						<a href=""></a>
+						<p>华东</p>
+						<div class="circle"></div>
+					</div>
+					<div class="area_item japan">
+						<a href=""></a>
+						<p>日本</p>
+						<div class="circle"></div>
+					</div>
+					<div class="area_item hongkong">
+						<a href=""></a>
+						<p>香港</p>
+						<div class="circle"></div>
+					</div>
+					<div class="area_item singapore">
+						<a href=""></a>
+						<p>新加坡</p>
+						<div class="circle"></div>
+					</div>
+					<div class="area_item australia">
+						<a href=""></a>
+						<p>澳大利亚</p>
+						<div class="circle"></div>
+					</div>
+				</div>
+			</div>
+			<div class="licence w">
+				<div class="licence_items">
+					<div class="licence_item"><img src="images/cloud_licence01.png" alt=""><span>全球首张云安全国际认证</span></div>
+					<div class="licence_item"><img src="images/cloud_licence02.png" alt=""><span>信息安全管理体系国际认证</span></div>
+					<div class="licence_item"><img src="images/cloud_licence03.png" alt=""><span>通过公安部等级保护评测</span></div>
+					<div class="licence_item"><img src="images/cloud_licence04.png" alt=""><span>首批可信云服务认证</span></div>
+				</div>
+			</div>
+		</div>
+		<div class="cooperator w">
+			<div class="title">
+				<h3>携手共赢，与全球合作伙伴共建云端生态</h3>
+				<p><a href="">加入阿里云生态合作伙伴计划，开创新业务，获取技术、资源，实现更快速成长</a></p>
+			</div>
+			<div class="companies">
+				<div class="img-item"><img src="images/company01.png" alt=""></div>
+				<div class="img-item"><img src="images/company02.png" alt=""></div>
+				<div class="img-item"><img src="images/company03.png" alt=""></div>
+				<div class="img-item"><img src="images/company04.png" alt=""></div>
+				<div class="img-item"><img src="images/company05.png" alt=""></div>
+			</div>
+		</div>
+		<div class="register">
+			<h3>现在注册，即可免费享受30余款产品套餐</h3>
+			<button>免费注册</button>
+		</div>
+		<div class="buttons">
+			<div class="feedback">
+				<div id="feedback_detail">
+					<dl>
+						<dt>
+							<img src="images/consultnumber.png" alt=""></dt>
+						<dd>
+							<h3><a href="">售前咨询电话</a></h3>
+							<p><a href="" class="consult">95187转1</a></p>
+						</dd>
+					</dl>
+					<dl>
+						<dt><img src="images/clouddoctor.png" alt=""></dt>
+						<dd>
+							<h3><a href="">云博士</a></h3>
+							<p><a href="">智能回答秒级响应，24小时在线</a></p>
+						</dd>
+					</dl>
+					<dl>
+						<dt><img src="images/suggestions.png" alt=""></dt>
+						<dd>
+							<h3><a href="">建议反馈</a></h3>
+							<p><a href="">阿里云不是完美的，我们渴望您的建议</a></p>
+						</dd>
+					</dl>
+				</div>
+				<div id="feedbackImg">
+					<img src="images/feedback.png" alt="">
+				</div>
+			</div>
+			<div id="backToTop">
+				<a href="#"><img src="images/backToTop.png" alt=""></a>
+			</div>
+		</div>
+	</main>
+	<!-- 页面主体 main end -->
+	
+	<!-- 底部栏 footer start -->
+	<footer>
+		<div class="w">
+			<div class="service">
+				<div class="hotline">
+					<div class="icon">
+						<img src="images/contactus.png" style="width: 50px">
+					</div>
+					<div class="contact">
+						<h3>售前咨询热线</h3>
+						<h2>95187</h2>
+						<ul>
+							<li><a href="#">专业技术咨询</a></li>
+							<li><a href="#">全方位产品解读</a></li>
+							<li><a href="#">成熟解决方案</a></li>
+							<li><a href="#">成功客户案例分享</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="entrance">
+					<dl>
+						<dt><a href="">服务与支持</a></dt>
+						<dd><a href="">售前咨询</a></dd>
+						<dd><a href="">阿里云授权服务中心</a></dd>
+						<dd><a href="">区域服务</a></dd>
+						<dd><a href="">联系客服</a></dd>
+						<dd><a href="">新手学堂</a></dd>
+						<dd><a href="">阿里云大学</a></dd>
+						<dd><a href="">公告</a></dd>
+						<dd><a href="">信任中心</a></dd>
+						<dd><a href="">举报中心</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="">账号与支持</a></dt>
+						<dd><a href="">登录常见问题</a></dd>
+						<dd><a href="">充值付款</a></dd>
+						<dd><a href="">线下汇款 / 电汇</a></dd>
+						<dd><a href="">合同申请</a></dd>
+						<dd><a href="">索取发票</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="">快速入口</a></dt>
+						<dd><a href="">管理控制台</a></dd>
+						<dd><a href="">备案管理</a></dd>
+						<dd><a href="">账号管理</a></dd>
+						<dd><a href="">域名信息查询（WHOIS）</a></dd>
+						<dd><a href="">域名控制台</a></dd>
+						<dd><a href="">万网主机控制面板</a></dd>
+						<dd><a href="">产品图标</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="">其他</a></dt>
+						<dd><a href="">定价</a></dd>
+						<dd><a href="">客户案例</a></dd>
+						<dd><a href="">新产品发布台</a></dd>
+						<dd><a href="">海外上云</a></dd>
+						<dd><a href="">博客</a></dd>
+						<dd><a href="">社区话题</a></dd>
+						<dd><a href="">云教程</a></dd>
+						<dd><a href="">开发者交流</a></dd>
+						<dd><a href="">提交建议</a></dd>
+					</dl>
+				</div>
+				<div class="follow">
+					<dl>
+						<dt><a href="">关注阿里云</a></dt>
+						<dd><a href="">企业决策必读</a></dd>
+						<dd><a href="">阿里云APP</a></dd>
+						<dd><a href="">阿里云微信</a></dd>
+						<dd><a href="">阿里云微博</a></dd>
+						<dd><a href="">阿里云客户满意中心</a></dd>
+						<dd><img src="images/followus.png"></dd>
+					</dl>
+				</div>
+			</div>
+			<div class="promote">
+				<dl>
+					<dt><a href="">热门产品</a></dt>
+					<dd><a href="">Hbase云数据库</a></dd>
+					<dd><a href="">云数据库RDS</a></dd>
+					<dd><a href="">云存储OSS</a></dd>
+					<dd><a href="">NAT网关</a></dd>
+					<dd><a href="">负载均衡</a></dd>
+					<dd><a href="">域名注册</a></dd>
+					<dd><a href="">网站建设</a></dd>
+					<dd><a href="">大数据</a></dd>
+					<dd><a href="">云计算</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="">用户热搜</a></dt>
+					<dd><a href="">网站备案</a></dd>
+					<dd><a href="">网安法</a></dd>
+					<dd><a href="">CDN加速</a></dd>
+					<dd><a href="">API网关</a></dd>
+					<dd><a href="">企业邮箱</a></dd>
+					<dd><a href="">whois查询</a></dd>
+					<dd><a href="">视频直播</a></dd>
+					<dd><a href="">视频转码</a></dd>
+					<dd><a href="">云安全</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="">更多推荐</a></dt>
+					<dd><a href="">数据科研社区</a></dd>
+					<dd><a href="">阿里云大学</a></dd>
+					<dd><a href="">学生机</a></dd>
+					<dd><a href="">IT论坛</a></dd>
+					<dd><a href="">数据可视化</a></dd>
+					<dd><a href="">云虚机</a></dd>
+					<dd><a href="">com域名</a></dd>
+					<dd><a href="">cn域名</a></dd>
+					<dd><a href="">合规安全解决方案</a></dd>
+				</dl>
+			</div>
+			<div class="links">
+				<div class="about">
+					<ul>
+						<li><a href="">关于我们</a></li>
+						<li><a href="">法律声明</a></li>
+						<li><a href="">廉正举报</a></li>
+						<li><a href="">友情链接</a></li>
+					</ul>
+				</div>
+				<div class="others">
+					<ul>
+						<li><a href="">阿里巴巴集团</a></li>
+						<li><a href="">淘宝网</a></li>
+						<li><a href="">天猫</a></li>
+						<li><a href="">聚划算</a></li>
+						<li><a href="">全球速卖通</a></li>
+						<li><a href="">阿里巴巴国际交易市场</a></li>
+						<li><a href="">1688</a></li>
+						<li><a href="">阿里妈妈</a></li>
+						<li><a href="">飞猪</a></li>
+						<li><a href="">阿里云计算</a></li>
+						<li><a href="">YunOS</a></li>
+						<li><a href="">阿里通信</a></li>
+						<li><a href="">万网</a></li>
+						<li><a href="">高德</a></li>
+						<li><a href="">UC</a></li>
+						<li><a href="">友盟</a></li>
+						<li><a href="">虾米</a></li>
+						<li><a href="">阿里星球</a></li>
+						<li><a href="">来往</a></li>
+						<li><a href="">钉钉</a></li>
+						<li><a href="">支付宝</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>© 2009-2017 Aliyun.com 版权所有 ICP证：浙B2-20080101</p>
+			</div>
+			<div class="licence">
+				<img src="images/licence01.png" alt="">
+				<img src="images/licence02.png" alt="">
+				<img src="images/licence03.png" alt="">
+				<span>浙公网安备 33010002000099号</span>
+			</div>
+		</div>
+	</footer>
+	<!-- 底部栏 footer end -->
+</body>
+</html>

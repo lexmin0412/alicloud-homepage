@@ -1,0 +1,28 @@
+/*CSS初始化 start*/
+body,div,h1,h2,h3,h4,p,ul,li,dl,dt,dd,img {
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+} 
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+.topbar .menu ul li a:hover, .navbar nav ul li a:hover, footer .service .hotline .contact ul li a:hover, footer .service .entrance dl dd a:hover, footer .service .follow dl dt a:hover, footer .service .follow dl dd a:hover, footer .promote dl dd a:hover, footer .links .about ul li a:hover, footer .links .others ul li a:hover, .developer .title p a:hover {
+	color: #00c1de;
+	transition: 0.8s;
+}
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+input:focus, button:focus {
+	outline: 0;
+}
+button {
+	cursor: pointer;
+}
+/*CSS初始化 end*/
